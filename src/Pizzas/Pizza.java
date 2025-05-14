@@ -1,9 +1,7 @@
-public class Pizza {
-    String type = "Unknown";
+package Pizzas;
 
-    public Pizza(String type){
-        this.type = type;
-    }
+public abstract class Pizza {
+    String type = "Unknown";
 
     public void prepare(){
         System.out.println("Preparing " + type);
