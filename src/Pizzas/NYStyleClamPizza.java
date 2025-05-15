@@ -3,6 +3,6 @@ package Pizzas;
 public class NYStyleClamPizza extends Pizza{
 
     public NYStyleClamPizza(){
-        this.type = "New York Style Clam Pizza";
+        this.name = "New York Style Clam Pizza";
     }
 }

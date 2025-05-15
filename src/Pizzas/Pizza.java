@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Pizza {
-    String type = "Unknown";
     String name;
     String dough;
     String Sauce;
@@ -12,10 +11,6 @@ public abstract class Pizza {
 
     public String getName(){
         return name;
-    }
-
-    public String getType() {
-        return type;
     }
 
     public void prepare(){
