@@ -6,7 +6,7 @@ import java.util.List;
 public abstract class Pizza {
     String name;
     String dough;
-    String Sauce;
+    String sauce;
     List<String> toppings = new ArrayList<String>();
 
     public String getName(){

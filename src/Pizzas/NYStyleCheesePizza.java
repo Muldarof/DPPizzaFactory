@@ -3,7 +3,11 @@ package Pizzas;
 public class NYStyleCheesePizza extends Pizza{
 
     public NYStyleCheesePizza(){
-        this.name = "New York Style Cheese Pizza";
+        name = "New York Style Sauce and Cheese Pizza";
+        dough = "Thin Crust Dough";
+        sauce = "Marinara Sauce";
+
+        toppings.add("Grated Reggiano Cheese");
     }
 
 
