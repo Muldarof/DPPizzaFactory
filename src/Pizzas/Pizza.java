@@ -3,6 +3,10 @@ package Pizzas;
 public abstract class Pizza {
     String type = "Unknown";
 
+    public String getType() {
+        return type;
+    }
+
     public void prepare(){
         System.out.println("Preparing " + type);
     }
