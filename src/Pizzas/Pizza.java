@@ -22,6 +22,9 @@ public abstract class Pizza {
         for(String topping : toppings){
             System.out.println("    " + topping);
         }
+        bake();
+        cut();
+        box();
     }
 
     void bake(){
